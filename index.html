@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- Google fonts import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript bundle-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Own Style.css to override bootstrap css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+      <!--for making it responsive -->
+ <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+
+    <a class="navbar-brand title-tindog" href="">Tindog</a>
+
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
+
+    <span class="navbar-toggler-icon"></span>
+
+     </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+    <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+        </li>
+
+    </ul>
+ </div>
+</nav>
+
+
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+      <h1>Meet new and interesting dogs nearby.</h1>
+      <button type="button" class="btn btn-outline-light btn-lg download-image"><img class="logo" src="images/apple-logo.png" alt="apple store logo ">  Download</button>
+      <button type="button" class="btn btn-dark btn-lg download-image"><img class="logo" src="images/playstore-logo.png" alt="play store logo">  Download</button>
+      </div>
+    <div class="col-lg-6 col-md-12">
+      <img src="images/iphone6.png" class="iphone-image" alt="iphone-mockup">
+    </div>
+  </div>
+
+</div> <!-- closing the container fluid -->
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+     <div class="row">
+
+  <div class="col-lg-4 col-md-12 spintro">
+    <svg class="spintro-image" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24 33.3q3.9 0 6.6-2.7 2.7-2.7 2.7-6.6 0-3.9-2.7-6.6-2.7-2.7-6.6-2.7-3.9 0-6.6 2.7-2.7 2.7-2.7 6.6 0 3.9 2.7 6.6 2.7 2.7 6.6 2.7Zm0 11.4q-4.25 0-8.025-1.625-3.775-1.625-6.6-4.45Q6.55 35.8 4.925 32.05T3.3 24q0-4.3 1.625-8.075Q6.55 12.15 9.35 9.35q2.8-2.8 6.575-4.45Q19.7 3.25 24 3.25q4.3 0 8.1 1.65t6.575 4.425q2.775 2.775 4.425 6.55T44.75 24q0 4.3-1.65 8.075-1.65 3.775-4.45 6.575-2.8 2.8-6.55 4.425T24 44.7Zm0-3.95q7 0 11.875-4.9T40.75 24q0-7-4.875-11.875T24 7.25q-6.95 0-11.85 4.875Q7.25 17 7.25 24q0 6.95 4.9 11.85 4.9 4.9 11.85 4.9ZM24 24Z"/></svg>
+    <h3>Easy to use.</h3>
+    <p>So easy to use, even your dog could do it.</p>
+  </div>
+
+  <div class="col-lg-4 col-md-12 spintro">
+    <svg class="spintro-image" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m21 33.7 14.6-14.65-2.95-3L21 27.7l-5.75-5.75-3 2.95Zm3 11.25q-4.3 0-8.15-1.65-3.85-1.65-6.675-4.475Q6.35 36 4.7 32.15 3.05 28.3 3.05 24q0-4.35 1.65-8.175Q6.35 12 9.2 9.15q2.85-2.85 6.675-4.475Q19.7 3.05 23.95 3.05q4.35 0 8.2 1.625Q36 6.3 38.85 9.15q2.85 2.85 4.475 6.675 1.625 3.825 1.625 8.225 0 4.3-1.625 8.1T38.85 38.8q-2.85 2.85-6.675 4.5Q28.35 44.95 24 44.95Zm0-4.15q6.95 0 11.875-4.925T40.8 24q0-6.95-4.925-11.875T24 7.2q-6.95 0-11.875 4.925T7.2 24q0 6.95 4.925 11.875T24 40.8ZM24 24Z"></svg>
+    <h3>Elite Clientele</h3>
+    <p>We have all the dogs, the greatest dogs.</p>
+  </div>
+
+  <div class="col-lg-4 spintro">
+    <svg class="spintro-image" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m23.95 43.2-2.65-2.4q-5.4-5-8.925-8.6-3.525-3.6-5.625-6.475-2.1-2.875-2.9-5.225-.8-2.35-.8-4.7 0-4.9 3.3-8.2 3.3-3.3 8.1-3.3 2.75 0 5.2 1.25t4.3 3.6q2.15-2.45 4.5-3.65 2.35-1.2 5.05-1.2 4.85 0 8.15 3.3 3.3 3.3 3.3 8.2 0 2.35-.825 4.7t-2.9 5.2q-2.075 2.85-5.6 6.475Q32.1 35.8 26.65 40.8Zm0-5.5q5.1-4.65 8.35-7.95T37.425 24q1.875-2.45 2.625-4.4.75-1.95.75-3.8 0-3.15-2.05-5.25t-5.25-2.1q-2.45 0-4.625 1.6T25.45 14.4H22.5q-1.25-2.7-3.45-4.325t-4.6-1.625q-3.15 0-5.2 2.05-2.05 2.05-2.05 5.3 0 1.9.775 3.875T10.65 24.1q1.9 2.45 5.1 5.75 3.2 3.3 8.2 7.85Zm.1-14.65Z"/></svg>
+    <h3>Guaranteed to work.</h3>
+    <p>Find the love of your dog's life or your money back.</p>
+  </div>
+
+  </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+<section id="testimonials">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval=5000>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+      <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+      <em>Pebbles, New York</em>
+   </div>
+
+   <div class="carousel-item">
+    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em>
+   </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+</section>
+
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="price-header">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+ <div class="row">
+
+   <div class="price-detailer col-lg-4 col-md-6">
+     <div class="card">
+        <div class="card-header">
+            <h3>Chihuahua</h3>
+        </div>
+      <div class="card-body">
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <div class="d-grid gap-2">
+        <button type="button" class="btn btn-lg btn-outline-dark buy-button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="price-detailer col-lg-4 col-md-6">
+     <div class="card">
+        <div class="card-header">
+           <h3>Labrador</h3>
+        </div>
+      <div class="card-body">
+        <h2>$49 / mo</h2>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <div class="d-grid gap-2">
+        <button type="button" class="btn btn-block btn-lg btn-dark buy-button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="price-detailer col-lg-4">
+     <div class="card">
+        <div class="card-header">
+          <h3>Mastiff</h3>
+        </div>
+      <div class="card-body">
+        <h2>$99 / mo</h2>
+        <p>Pirority Listing</p>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <div class="d-grid gap-2">
+        <button type="button" class="btn btn-block btn-lg btn-dark">Sign Up</button>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  </div>
+</section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-line">Find the True Love of Your Dog's Life Today.</h3>
+    <div class="row">
+      <div class="col-lg-3 col-md-12">
+      </div>
+      <div class="col-lg-3 col-md-12">
+      <button type="button" class="btn btn-light btn-lg download-image2"><img class="logo" src="images/apple-logo.png" alt="apple store logo ">  Download</button>
+      </div>
+      <div class="col-lg-3 col-md-12">
+      <button type="button" class="btn btn-dark btn-lg download-image2"><img class="logo" src="images/playstore-logo.png" alt="play store logo">  Download</button>
+      </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <img class="fb-image sm-image" src="images/fb2.png" alt="fb-image" >
+    <img class="insta-image sm-image" src="images/insta.png" alt="insta-image" >
+    <img class="twitter-image sm-image" src="images/twitter.png" alt="twitter-image" >
+    <img class="mail-image sm-image" src="images/mail.png" alt="mail-image" >
+
+    <p>© Copyright 2022 TinDog</p>
+
+  </footer>
+
+ </body>
+
+</html>
